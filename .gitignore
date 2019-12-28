@@ -1,0 +1,3 @@
+# Project exclude paths
+/src/main/web-app/node_modules/
+/target/

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+  <changeSet id="03" author="najafian">
+    <comment>Inserting Users</comment>
+    <insert tableName="bookmark">
+      <column name="id" valueNumeric="1"/>
+      <column name="username" value="mehdi"/>
+      <column name="repositoryName" value="spring-projects/spring-boot"/>
+    </insert>
+    <insert tableName="bookmark">
+      <column name="id" valueNumeric="2"/>
+      <column name="username" value="mehdi"/>
+      <column name="repositoryName" value="dyc87112/SpringBoot-Learning"/>
+    </insert>
+    <insert tableName="bookmark">
+      <column name="id" valueNumeric="3"/>
+      <column name="username" value="mehdi"/>
+      <column name="repositoryName" value="lenve/JavaEETest"/>
+    </insert>
+  </changeSet>
+</databaseChangeLog>
